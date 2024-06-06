@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6EF27C62C12630D0005B732 /* NotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27C52C12630D0005B732 /* NotorApp.swift */; };
+		B6EF27C82C12630D0005B732 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27C72C12630D0005B732 /* ContentView.swift */; };
+		B6EF27CA2C12630F0005B732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EF27C92C12630F0005B732 /* Assets.xcassets */; };
+		B6EF27CD2C12630F0005B732 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EF27CC2C12630F0005B732 /* Preview Assets.xcassets */; };
+		B6EF27D82C12630F0005B732 /* NotorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27D72C12630F0005B732 /* NotorTests.swift */; };
+		B6EF27E22C12630F0005B732 /* NotorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27E12C12630F0005B732 /* NotorUITests.swift */; };
+		B6EF27E42C12630F0005B732 /* NotorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27E32C12630F0005B732 /* NotorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6EF27D42C12630F0005B732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EF27BA2C12630D0005B732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EF27C12C12630D0005B732;
+			remoteInfo = Notor;
+		};
+		B6EF27DE2C12630F0005B732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6EF27BA2C12630D0005B732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6EF27C12C12630D0005B732;
+			remoteInfo = Notor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6EF27C22C12630D0005B732 /* Notor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EF27C52C12630D0005B732 /* NotorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotorApp.swift; sourceTree = "<group>"; };
+		B6EF27C72C12630D0005B732 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6EF27C92C12630F0005B732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6EF27CC2C12630F0005B732 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6EF27CE2C12630F0005B732 /* Notor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Notor.entitlements; sourceTree = "<group>"; };
+		B6EF27D32C12630F0005B732 /* NotorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EF27D72C12630F0005B732 /* NotorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotorTests.swift; sourceTree = "<group>"; };
+		B6EF27DD2C12630F0005B732 /* NotorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EF27E12C12630F0005B732 /* NotorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotorUITests.swift; sourceTree = "<group>"; };
+		B6EF27E32C12630F0005B732 /* NotorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6EF27BF2C12630D0005B732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27D02C12630F0005B732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27DA2C12630F0005B732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6EF27B92C12630D0005B732 = {
+			isa = PBXGroup;
+			children = (
+				B6EF27C42C12630D0005B732 /* Notor */,
+				B6EF27D62C12630F0005B732 /* NotorTests */,
+				B6EF27E02C12630F0005B732 /* NotorUITests */,
+				B6EF27C32C12630D0005B732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EF27C32C12630D0005B732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF27C22C12630D0005B732 /* Notor.app */,
+				B6EF27D32C12630F0005B732 /* NotorTests.xctest */,
+				B6EF27DD2C12630F0005B732 /* NotorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6EF27C42C12630D0005B732 /* Notor */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF27C52C12630D0005B732 /* NotorApp.swift */,
+				B6EF27C72C12630D0005B732 /* ContentView.swift */,
+				B6EF27C92C12630F0005B732 /* Assets.xcassets */,
+				B6EF27CE2C12630F0005B732 /* Notor.entitlements */,
+				B6EF27CB2C12630F0005B732 /* Preview Content */,
+			);
+			path = Notor;
+			sourceTree = "<group>";
+		};
+		B6EF27CB2C12630F0005B732 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF27CC2C12630F0005B732 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6EF27D62C12630F0005B732 /* NotorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF27D72C12630F0005B732 /* NotorTests.swift */,
+			);
+			path = NotorTests;
+			sourceTree = "<group>";
+		};
+		B6EF27E02C12630F0005B732 /* NotorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF27E12C12630F0005B732 /* NotorUITests.swift */,
+				B6EF27E32C12630F0005B732 /* NotorUITestsLaunchTests.swift */,
+			);
+			path = NotorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6EF27C12C12630D0005B732 /* Notor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EF27E72C12630F0005B732 /* Build configuration list for PBXNativeTarget "Notor" */;
+			buildPhases = (
+				B6EF27BE2C12630D0005B732 /* Sources */,
+				B6EF27BF2C12630D0005B732 /* Frameworks */,
+				B6EF27C02C12630D0005B732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notor;
+			productName = Notor;
+			productReference = B6EF27C22C12630D0005B732 /* Notor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6EF27D22C12630F0005B732 /* NotorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EF27EA2C12630F0005B732 /* Build configuration list for PBXNativeTarget "NotorTests" */;
+			buildPhases = (
+				B6EF27CF2C12630F0005B732 /* Sources */,
+				B6EF27D02C12630F0005B732 /* Frameworks */,
+				B6EF27D12C12630F0005B732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EF27D52C12630F0005B732 /* PBXTargetDependency */,
+			);
+			name = NotorTests;
+			productName = NotorTests;
+			productReference = B6EF27D32C12630F0005B732 /* NotorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6EF27DC2C12630F0005B732 /* NotorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6EF27ED2C12630F0005B732 /* Build configuration list for PBXNativeTarget "NotorUITests" */;
+			buildPhases = (
+				B6EF27D92C12630F0005B732 /* Sources */,
+				B6EF27DA2C12630F0005B732 /* Frameworks */,
+				B6EF27DB2C12630F0005B732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EF27DF2C12630F0005B732 /* PBXTargetDependency */,
+			);
+			name = NotorUITests;
+			productName = NotorUITests;
+			productReference = B6EF27DD2C12630F0005B732 /* NotorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6EF27BA2C12630D0005B732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B6EF27C12C12630D0005B732 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B6EF27D22C12630F0005B732 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B6EF27C12C12630D0005B732;
+					};
+					B6EF27DC2C12630F0005B732 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B6EF27C12C12630D0005B732;
+					};
+				};
+			};
+			buildConfigurationList = B6EF27BD2C12630D0005B732 /* Build configuration list for PBXProject "Notor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6EF27B92C12630D0005B732;
+			productRefGroup = B6EF27C32C12630D0005B732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6EF27C12C12630D0005B732 /* Notor */,
+				B6EF27D22C12630F0005B732 /* NotorTests */,
+				B6EF27DC2C12630F0005B732 /* NotorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6EF27C02C12630D0005B732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF27CD2C12630F0005B732 /* Preview Assets.xcassets in Resources */,
+				B6EF27CA2C12630F0005B732 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27D12C12630F0005B732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27DB2C12630F0005B732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6EF27BE2C12630D0005B732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF27C82C12630D0005B732 /* ContentView.swift in Sources */,
+				B6EF27C62C12630D0005B732 /* NotorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27CF2C12630F0005B732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF27D82C12630F0005B732 /* NotorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EF27D92C12630F0005B732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6EF27E22C12630F0005B732 /* NotorUITests.swift in Sources */,
+				B6EF27E42C12630F0005B732 /* NotorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EF27D52C12630F0005B732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EF27C12C12630D0005B732 /* Notor */;
+			targetProxy = B6EF27D42C12630F0005B732 /* PBXContainerItemProxy */;
+		};
+		B6EF27DF2C12630F0005B732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6EF27C12C12630D0005B732 /* Notor */;
+			targetProxy = B6EF27DE2C12630F0005B732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B6EF27E52C12630F0005B732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6EF27E62C12630F0005B732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B6EF27E82C12630F0005B732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notor/Notor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notor/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.Notor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B6EF27E92C12630F0005B732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Notor/Notor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Notor/Preview Content\"";
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.Notor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B6EF27EB2C12630F0005B732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notor";
+			};
+			name = Debug;
+		};
+		B6EF27EC2C12630F0005B732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NotorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Notor";
+			};
+			name = Release;
+		};
+		B6EF27EE2C12630F0005B732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Notor;
+			};
+			name = Debug;
+		};
+		B6EF27EF2C12630F0005B732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ABK52CX7TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myname.NotorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Notor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6EF27BD2C12630D0005B732 /* Build configuration list for PBXProject "Notor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EF27E52C12630F0005B732 /* Debug */,
+				B6EF27E62C12630F0005B732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EF27E72C12630F0005B732 /* Build configuration list for PBXNativeTarget "Notor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EF27E82C12630F0005B732 /* Debug */,
+				B6EF27E92C12630F0005B732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EF27EA2C12630F0005B732 /* Build configuration list for PBXNativeTarget "NotorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EF27EB2C12630F0005B732 /* Debug */,
+				B6EF27EC2C12630F0005B732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6EF27ED2C12630F0005B732 /* Build configuration list for PBXNativeTarget "NotorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EF27EE2C12630F0005B732 /* Debug */,
+				B6EF27EF2C12630F0005B732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6EF27BA2C12630D0005B732 /* Project object */;
+}
