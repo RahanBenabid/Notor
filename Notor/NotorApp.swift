@@ -12,6 +12,14 @@ struct NotorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    getPermission()
+                }
         }
     }
-}
+    func getPermission() {
+        AXIsProcessTrustedWithOptions(
+            [kAXTrustedCheckOptionPrompt.takeRetainedValue(): true] as CFDictionary
+        )
+    }
+ }

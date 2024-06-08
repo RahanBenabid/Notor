@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61DD5512C14BEB200177C37 /* Sauce in Frameworks */ = {isa = PBXBuildFile; productRef = B61DD5502C14BEB200177C37 /* Sauce */; };
 		B6EF27C62C12630D0005B732 /* NotorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27C52C12630D0005B732 /* NotorApp.swift */; };
 		B6EF27C82C12630D0005B732 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF27C72C12630D0005B732 /* ContentView.swift */; };
 		B6EF27CA2C12630F0005B732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EF27C92C12630F0005B732 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61DD5512C14BEB200177C37 /* Sauce in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = Notor;
+			packageProductDependencies = (
+				B61DD5502C14BEB200177C37 /* Sauce */,
+			);
 			productName = Notor;
 			productReference = B6EF27C22C12630D0005B732 /* Notor.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = B6EF27B92C12630D0005B732;
+			packageReferences = (
+				B61DD54F2C14BEB200177C37 /* XCRemoteSwiftPackageReference "Sauce" */,
+			);
 			productRefGroup = B6EF27C32C12630D0005B732 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -581,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B61DD54F2C14BEB200177C37 /* XCRemoteSwiftPackageReference "Sauce" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Clipy/Sauce";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B61DD5502C14BEB200177C37 /* Sauce */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B61DD54F2C14BEB200177C37 /* XCRemoteSwiftPackageReference "Sauce" */;
+			productName = Sauce;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6EF27BA2C12630D0005B732 /* Project object */;
 }
